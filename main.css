@@ -1,0 +1,29 @@
+.macbook-pro-selected-dao {
+  align-items: flex-start;
+  background-color: var(--mirage);
+  display: flex;
+  flex-direction: column;
+  height: 1163px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
